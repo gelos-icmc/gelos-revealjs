@@ -11,6 +11,17 @@
 
   // Cor do texto base
   --color-text: #111;
+  --color-text-alt: #333;
+
+  // Estilo para syntax higlight e etc
+  --color-red: #8C4351;
+  --color-orange: #965027;
+  --color-yellow: #8f5E15;
+  --color-green: #33635C;
+  --color-cyan: #0F4B6E;
+  --color-blue: #34548A;
+  --color-purple: #5A4A78;
+  --color-brown: #7E5140;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,5 +39,16 @@
 
     // Cor do texto base
     --color-text: #ccc;
+    --color-text-alt: #aaa;
+
+    // Estilo para syntax higlight e etc
+    --color-red: #D95468;
+    --color-orange: #FF9E64;
+    --color-yellow: #EBBF83;
+    --color-green: #8BD49C;
+    --color-cyan: #70E1E8;
+    --color-blue: #539AFC;
+    --color-purple: #B62D65;
+    --color-brown: #DD9D82;
   }
 }

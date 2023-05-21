@@ -1,0 +1,63 @@
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+}
+code.hljs {
+    padding: 3px 5px;
+}
+.hljs {
+    color: var(--color-text);
+    background: var(--color-bg-alt);
+}
+.hljs::selection, .hljs::selection {
+    background-color: var(--color-text);
+    color: var(--color-bg-alt);
+}
+.hljs-comment {
+    color: var(--color-text-alt);
+}
+.hljs-tag {
+    color: var(--color-text-alt);
+}
+.hljs-operator, .hljs-punctuation, .hljs-subst {
+    color: var(--color-text-alt);
+}
+.hljs-operator {
+    opacity: .7;
+}
+.hljs-bullet, .hljs-deletion, .hljs-name, .hljs-selector-tag, .hljs-template-variable, .hljs-variable {
+    color: var(--color-red);
+}
+.hljs-attr, .hljs-link, .hljs-literal, .hljs-number, .hljs-symbol, .hljs-variable.constant_ {
+    color: var(--color-orange);
+}
+.hljs-class .hljs-title, .hljs-title, .hljs-title.class_ {
+    color: var(--color-yellow);
+}
+.hljs-strong {
+    font-weight: 700;
+    color: var(--color-yellow);
+}
+.hljs-addition, .hljs-code, .hljs-string, .hljs-title.class_.inherited__ {
+    color: var(-color-green);
+}
+.hljs-built_in, .hljs-doctag, .hljs-keyword.hljs-atrule, .hljs-quote, .hljs-regexp {
+    color: var(--color-cyan);
+}
+.hljs-attribute, .hljs-function .hljs-title, .hljs-section, .hljs-title.function_, .ruby .hljs-property {
+    color: var(--color-blue);
+}
+.diff .hljs-meta, .hljs-keyword, .hljs-template-tag, .hljs-type {
+    color: var(--color-purple);
+}
+.hljs-emphasis {
+    color: var(--color-purple);
+    font-style: italic
+}
+.hljs-meta, .hljs-meta .hljs-keyword, .hljs-meta .hljs-string {
+    color: var(--color-brown);
+}
+.hljs-meta .hljs-keyword, .hljs-meta-keyword {
+    font-weight: 700;
+}

@@ -2,6 +2,7 @@
 @import "template/settings";
 
 @import "colors";
+@import "highlight";
 $mainColor: var(--color-text);
 $headingColor: var(--color-fade);
 $backgroundColor: var(--color-bg);
