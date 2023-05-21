@@ -20,3 +20,11 @@ Alternativamente, se você não quiser incluir pipeline para compilar `sass` no 
 ```js
 import 'gelos-revealjs/dist/gelos.css'
 ```
+
+## Extra
+
+Também incluímos o SVG do grupo, basta criar um placeholder no seu HTML e usar algo como:
+```js
+import gelosLogo from 'gelos-revealjs/svg/logo.svg';
+document.getElementById("gelos-logo").innerHTML = gelosLogo;
+```
