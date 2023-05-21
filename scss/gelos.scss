@@ -1,0 +1,17 @@
+@import "template/mixins";
+@import "template/settings";
+
+@import "colors";
+$mainColor: var(--color-text);
+$headingColor: var(--color-fade);
+$backgroundColor: var(--color-bg);
+$linkColor: var(--color-blossom);
+$linkColorHover: var(--color-fade);
+$selectionBackgroundColor: var(--color-text);
+$selectionColor: var(--color-bg);
+
+@import "typography";
+$mainFont: var(--main-font);
+$codeFont: var(--code-font);
+
+@import "template/theme";

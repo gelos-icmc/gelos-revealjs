@@ -1,0 +1,15 @@
+{
+  "name": "revealjs-theme",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gelos-icmc/revealjs-theme",
+  "authors": [
+    "Gabriel Fontes"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "sass -I node_modules -s compressed scss/gelos.scss dist/theme.css"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

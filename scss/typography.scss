@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://m7.rs/assets/FiraSans/Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: url('https://m7.rs/assets/FiraSans/Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: url('https://m7.rs/assets/FiraSans/Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: url('https://m7.rs/assets/FiraSans/BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://m7.rs/assets/FiraCode/Regular.woff2') format('woff2');
+}
+
+:root {
+  --main-font:  "Fira Sans", "sans-serif";
+  --code-font: "Fira Code", "monospace";
+}
